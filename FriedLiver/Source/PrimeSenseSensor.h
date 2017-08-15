@@ -31,6 +31,9 @@ public:
 	//! Processes the depth data (and color)
 	bool processDepth();
 	
+	std::string getSensorName() const {
+		return "PrimeSense";
+	}
 
 	//! Processes the Kinect color data
 	bool processColor()
